@@ -1,0 +1,192 @@
+#control-panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #c1c1c1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    position: relative;
+    -webkit-box-shadow: inset 0px 0px 3px black;
+    -moz-box-shadow: inset 0px 0px 3px black;
+    box-shadow: inset 0px 0px 3px black;
+    margin-bottom: 200px;
+}
+
+#team-controls {
+    display: flex;
+    flex-direction: Row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 20px 0px; */
+}
+
+/* HOME AND AWAY CONTROLS */
+#home-controls {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    width: 49%;
+    /* border-radius: 3px; */
+    /* -webkit-box-shadow: inset 0px 0px 3px black;
+    -moz-box-shadow: inset 0px 0px 3px black;
+    box-shadow: inset 0px 0px 3px black; */
+    padding: 30px 10px 0px 0px;
+}
+
+#away-controls {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+width: 49%;
+/* border-radius: 3px; */
+/* -webkit-box-shadow: inset 0px 0px 3px black;
+-moz-box-shadow: inset 0px 0px 3px black;
+box-shadow: inset 0px 0px 3px black; */
+padding: 30px 0px 0px 10px;
+}
+
+.control-header2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.control-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    background: rgb(134, 140, 150, 0.4);
+    width: 57%;
+    padding: 10px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 5px black;
+    -moz-box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px black;
+    outline: none;
+}
+
+.points-control-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.fouls-control-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    padding-tops: 20px;
+}
+
+.reset-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin: 20px;
+    background: rgb(134, 140, 150, 0.1);
+    padding: 10px;
+    font-weight: 500; 
+    letter-spacing: 2px;
+    -webkit-box-shadow: inset 0px 0px 2px black;
+    -moz-box-shadow: inset 0px 0px 2px black;
+    box-shadow: inset 0px 0px 2px black;
+    outline: none;
+    width: 25%;
+}
+
+.reset-text {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.reset-btn {
+    width: 80%;
+}
+
+/* MAIN CONTROLS */
+#main-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    padding: 10px;
+    padding: 10px 0px;
+    border-radius: 3px;
+    width: 100%;
+
+}
+
+
+.time-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flew-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    text-align: center;
+    margin: 20px 8px 8px 8px;
+}
+
+.start-stop-btns {
+    display: flex;
+    flex-direction: row;
+    flew-wrap: wrap;
+    gap: 10px;
+}
+
+.period-controls {
+    display: flex;
+    flex-direction: column;
+    flew-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    margin: 20px 8px 8px 8px;
+}
+
+.period-btns {
+    display: flex;
+    flex-direction: row;
+    flew-wrap: wrap;
+    gap: 10px;
+}
+
+.control-text {
+    margin: 6px 6px;
+    font-size: 16px;
+}
+
+.board {
+    width: 20%;
+}
+
+.board-text {
+    margin: 0px 0px 2px 0px;
+}

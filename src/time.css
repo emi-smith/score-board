@@ -1,0 +1,35 @@
+#time-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family:'orbitron'; 
+    font-weight: 400;
+    padding: 0px;
+    width: 100%;
+}
+
+.time-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 8px;
+    width: 100%;
+}
+
+.time-text {
+    font-size: 30px;
+    letter-spacing: 5.5px;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.time-number {
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 4px;
+}
+
+#tens {
+    display: none;
+}
