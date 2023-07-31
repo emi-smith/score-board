@@ -33,10 +33,6 @@
     position: relative;
     flex-wrap: wrap;
     width: 49%;
-    /* border-radius: 3px; */
-    /* -webkit-box-shadow: inset 0px 0px 3px black;
-    -moz-box-shadow: inset 0px 0px 3px black;
-    box-shadow: inset 0px 0px 3px black; */
     padding: 30px 10px 0px 0px;
 }
 
@@ -46,10 +42,6 @@ flex-direction: row;
 justify-content: center;
 flex-wrap: wrap;
 width: 49%;
-/* border-radius: 3px; */
-/* -webkit-box-shadow: inset 0px 0px 3px black;
--moz-box-shadow: inset 0px 0px 3px black;
-box-shadow: inset 0px 0px 3px black; */
 padding: 30px 0px 0px 10px;
 }
 
